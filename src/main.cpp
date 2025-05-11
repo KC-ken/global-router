@@ -12,12 +12,8 @@ int main( int argc, char** argv )
     /////////////////////parser/////////////////////
     global.parser( argc, argv );
     cout << "............parser done!!!!!!.............." << endl;
-//////
-    ////////////////////////global route///////////////////////
-//    global.routing( );//
-//    cout << "............global routing done!!!!!!.............." << endl;
-////
-//    /////////////////////output/////////////////////
+
+    ///////////////////////output///////////////////
     global.output( argc, argv );
     cout << "............output done!!!!!!.............." << endl;
 
